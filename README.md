@@ -38,7 +38,7 @@ or
 执行`npm run commit` 就可以自动生成合格的 commit message
 
  > cz-customizable 自定义配置可以对上面的 type、scope、subject、body等进行设置与限定，例如设置type的种类、subject的字数、body的换行符等。
- 方法是在项目根目录下新建 .cz-config.js 配置文件，在该文件中对上述字段设置规则。官方github上有给出该文件写法的一个示例。
+ 方法是在项目根目录下新建 [.cz-config.js](./.cz-config.js) 配置文件，在该文件中对上述字段设置规则。官方github上有给出该文件写法的一个示例。
  官方提供了一个.cz-config.js示例文件[cz-config-EXAMPLE.js](https://github.com/leoforfree/cz-customizable/blob/master/cz-config-EXAMPLE.js)，
 
  拓展了几个type类型，并对提示语进行了汉化。最后执行 npm run commit
@@ -135,13 +135,14 @@ npm install -g conventional-changelog-cli
 > -   type 为 chore,ci,docs,refactor,style,test 加了 BREAKING CHANGES 会进去，不加不进去。
 > -   release 不会出现在选择列表里目前没找到原因
 
-生成的日志可查看示例：[CHANGELOG](https://github.com/lyxdream/cz-demo/blob/main/CHANGELOG.md)
+生成的日志可查看示例：[CHANGELOG.md](./CHANGELOG.md)
 
 
 ### 扩展：
 
 ##### vscode commitizen
 > 在 VS Code 中搜索装 vscode commitizen，然后就可以摆脱命令行了，而且这个插件是和前面所有的配置兼容的，效果如下：
+
 
 #####  Vue CLI 3 插件
 > 如果对于上述所说的配置感到繁琐，这里提供一个Vue CLI 3的插件，如果开发的项目由Vue CLI 3系统生成，可以使用插件@ziyi2/ui-cz一键生成：
@@ -158,9 +159,6 @@ vue add @ziyi2/ui-cz
 
 [优雅的提交你的 Git Commit Message](https://juejin.im/post/6844903606815064077#heading-10)
 
-[自动生成Change Log的实现开发目的](https://www.yuque.com/rocket/rocket_doc/huo1la)
-
-[git commit规范及自动检查工具安装小记](https://juejin.im/post/6844904033635794958)
-
+[Cz工具集使用介绍 - 规范Git提交说明](https://blog.csdn.net/weixin_33890526/article/details/91393527)
 
 ```

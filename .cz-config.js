@@ -27,14 +27,11 @@ module.exports = {
                 '🗯  chore:          杂务，不属于以上类型，例如run build、引入或更新软件包等',
         },
     ],
-
     // scopes: [{ name: 'accounts' }, { name: 'admin' }, { name: 'exampleScope' }, { name: 'changeMe' }],
-
     // allowTicketNumber: false,
     // isTicketNumberRequired: false,
     // ticketNumberPrefix: 'TICKET-',
     // ticketNumberRegExp: '\\d{1,5}',
-
     messages: {
         type: '选择一种你的提交类型:',
         scope: '选择修改涉及范围 (可选):',
