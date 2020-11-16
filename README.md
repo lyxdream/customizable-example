@@ -141,7 +141,7 @@ npm install -g conventional-changelog-cli
 ### 扩展：
 
 ##### vscode commitizen
-> 在 VS Code 中搜索装 vscode commitizen，然后就可以摆脱命令行了，而且这个插件是和前面所有的配置兼容的，效果如下：
+> 在 VS Code 中搜索装 vscode commitizen，然后就可以摆脱命令行了，而且这个插件是和前面所有的配置兼容的
 
 
 #####  Vue CLI 3 插件
