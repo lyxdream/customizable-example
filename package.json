@@ -1,0 +1,34 @@
+{
+  "name": "customizable-example",
+  "version": "1.0.0",
+  "description": "采用了cz-customizable定制化提交说明的适配器、commitlint-config-cz @commitlint/cli+husky校验规则以及conventional-changelog日志生成器",
+  "main": "index.js",
+  "dependencies": {
+    "cz-customizable": "^6.3.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "commitlint-config-cz": "^0.13.2",
+    "husky": "^4.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyxdream/customizable-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lyxdream/customizable-example/issues"
+  },
+  "homepage": "https://github.com/lyxdream/customizable-example#readme",
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  }
+}
